@@ -46,9 +46,9 @@ class _SlidesPageState extends State<SlidesPage> {
     super.initState();
 
     _shortcuts = <LogicalKeySet, Intent>{
-      LogicalKeySet(LogicalKeyboardKey.alt, LogicalKeyboardKey.arrowLeft):
+      LogicalKeySet(LogicalKeyboardKey.arrowLeft):
           const _HandleSlideIntent.arrowLeft(),
-      LogicalKeySet(LogicalKeyboardKey.alt, LogicalKeyboardKey.arrowRight):
+      LogicalKeySet(LogicalKeyboardKey.arrowRight):
           const _HandleSlideIntent.arrowRight(),
     };
     _actions = <Type, Action<Intent>>{

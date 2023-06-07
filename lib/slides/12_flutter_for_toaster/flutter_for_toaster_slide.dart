@@ -19,9 +19,9 @@ class FlutterForToasterSlide extends StatelessWidget {
         ],
       ),
       carouselChildren: [
-        Image.asset('assets/images/flutter_for_toaster/toyota.png'),
-        Image.asset('assets/images/flutter_for_toaster/apple_tv.gif'),
-        Image.asset('assets/images/flutter_for_toaster/raspberry_pi.jpeg'),
+        Image.asset('assets/images/toyota.png'),
+        Image.asset('assets/images/apple_tv.gif'),
+        Image.asset('assets/images/raspberry_pi.jpeg'),
       ],
     );
   }

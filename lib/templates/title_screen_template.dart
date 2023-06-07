@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../common/social_media_footer.dart';
 
@@ -65,6 +66,23 @@ class TitleScreenTemplate extends StatelessWidget {
                                 ),
                           ),
                         ),
+                        InkWell(
+                          onTap: () => launchUrl(
+                              Uri.parse('https://flutterpresentation.web.app')),
+                          child: Text(
+                            'flutterpresentation.williamterrill.com',
+                            style:
+                                Theme.of(context).textTheme.bodyLarge?.copyWith(
+                                      color: const Color(0xFF02569B),
+                                      fontWeight: FontWeight.bold,
+                                    ),
+
+                            // TextStyle(
+
+                            //     decoration: TextDecoration.underline,
+                            //     color: Colors.blue),
+                          ),
+                        )
                       ],
                     ),
                   ),

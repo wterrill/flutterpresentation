@@ -17,9 +17,9 @@ class FlutterComparisonSlide extends StatelessWidget {
         ],
       ),
       carouselChildren: [
-        Image.asset('assets/images/flutter_vs_rn/rn_architecture.png'),
-        Image.asset('assets/images/flutter_vs_rn/google_trends.png'),
-        Image.asset('assets/images/flutter_vs_rn/FvRN.png'),
+        Image.asset('assets/images/rn_architecture.png'),
+        Image.asset('assets/images/google_trends.png'),
+        Image.asset('assets/images/FvRN.png'),
       ],
     );
   }

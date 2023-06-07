@@ -1,0 +1,7 @@
+flutter build web
+firebase deploy
+
+npm install -g firebase-tools 
+firebase login
+firebase logout
+firebase init

@@ -12,22 +12,22 @@ class SocialMediaHandle extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           SvgPicture.asset(
-            'icons/medium_icon.svg',
+            'assets/icons/medium_icon.svg',
             height: 32.0,
           ),
           const SizedBox(width: 4.0),
           SvgPicture.asset(
-            'icons/twitter_icon.svg',
+            'assets/icons/twitter_icon.svg',
             height: 32.0,
           ),
           const SizedBox(width: 4.0),
           SvgPicture.asset(
-            'icons/github_icon.svg',
+            'assets/icons/github_icon.svg',
             height: 32.0,
           ),
           const SizedBox(width: 4.0),
           SvgPicture.asset(
-            'icons/youtube_icon.svg',
+            'assets/icons/youtube_icon.svg',
             height: 32.0,
           ),
           const SizedBox(width: 4.0),

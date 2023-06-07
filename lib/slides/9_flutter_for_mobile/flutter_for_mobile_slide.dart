@@ -21,11 +21,11 @@ class FlutterForMobileSlide extends StatelessWidget {
       ),
       carouselChildren: [
         Image.asset(
-          'assets/images/flutter_for_mobile/flutter_architecture.png',
+          'assets/images/flutter_architecture.png',
           scale: 0.75,
         ),
         Image.asset(
-          'assets/images/flutter_for_mobile/platform_channels.png',
+          'assets/images/platform_channels.png',
           scale: 0.75,
         ),
         const WebBrowser(

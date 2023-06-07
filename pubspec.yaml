@@ -12,8 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_card_swipper: ^0.4.0
-  flutter_svg: ^0.21.0+1
+  flutter_svg: ^2.0.5
   lint: ^1.5.3
+  url_launcher: ^6.1.10
   web_browser: ^0.5.0
   youtube_player_iframe: ^2.0.0
 
@@ -27,8 +28,3 @@ flutter:
     - assets/icons/
     - assets/images/
     - assets/flare/
-    - assets/images/apps/
-    - assets/images/flutter_for_mobile/
-    - assets/images/flutter_for_toaster/
-    - assets/images/flutter_vs_rn/
-    - assets/images/community/
